@@ -25,7 +25,7 @@ import Foundation
 
 public class NetatmoManager {
     
-    internal static var shared = NetatmoManager()
+    public static var shared = NetatmoManager()
     internal static let userDefaultsSuiteName = "com.PigonaHill.NetatmoSwiftSDK.userDefaults.suiteName"
     internal static let userDefaultsKeychainStateUUID = "com.PigonaHill.NetatmoSwiftSDK.userDefaults.stateUUID"
     internal static let keychainServiceName = "com.PigonaHill.NetatmoSwiftSDK.keychain"
