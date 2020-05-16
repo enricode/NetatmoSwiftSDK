@@ -90,7 +90,7 @@ public class NetatmoManager {
     internal var clientId: String = ""
     internal var clientSecret: String = ""
     internal var redirectURI: String = ""
-    internal var accessToken: String?
+    public var accessToken: String?
     internal var refreshToken: String?
     internal var expires: Date?
     internal var isValid: Bool {
